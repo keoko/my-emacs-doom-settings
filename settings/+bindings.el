@@ -10,3 +10,4 @@
  "M-="    (λ! (text-scale-set 0))
  "M-+"    #'text-scale-increase
  "M--"    #'text-scale-decrease)
+
