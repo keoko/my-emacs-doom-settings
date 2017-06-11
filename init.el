@@ -85,8 +85,8 @@
        markdown        ; writing docs for people to ignore
        org             ; for organized fearless leader (WIP)
        php             ; make php less awful to work with
-       ;purescript      ; javascript, but functional
-       ;python          ; beautiful is better than ugly
+       purescript      ; javascript, but functional
+       python          ; beautiful is better than ugly
        rest            ; Emacs as a REST client
        ;ruby            ; 1.step do {|i| p "Ruby is #{i.even? ? 'love' : 'life'}"}
        ;rust            ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
@@ -99,17 +99,17 @@
        ;; Applications are opinionated modules that transform Emacs to fulfill a
        ;; specific purpose. They should be loaded last.
        :app
-      ;crm             ; TODO org-mode for client relations management
+       ;crm             ; TODO org-mode for client relations management
        ;email           ; Emacs as an email client
-      ;finance         ; TODO keeping track of my shekels
-      ;irc             ; TODO how neckbeards socialize
+       ;finance         ; TODO keeping track of my shekels
+       ;irc             ; TODO how neckbeards socialize
        ;present         ; showing off presentations in emacs
-      ;regex           ; TODO emacs as a regexp IDE
+       ;regex           ; TODO emacs as a regexp IDE
        ;rss             ; emacs as an RSS reader
        ;twitter         ; twitter client https://twitter.com/vnought
        ;write           ; emacs as a word processor (latex + org + markdown)
 
        ;; Private modules aren't tracked in source control (except for mine).
        ;; Use it as a reference for your own.
-       :private hlissner)
-
+       ;:private hlissner
+       )
