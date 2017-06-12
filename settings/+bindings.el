@@ -23,4 +23,15 @@
  "M-v"    #'clipboard-yank
  "M-f"    #'swiper
  "C-M-f"  #'doom/toggle-fullscreen
+ ;; re-bind keys bound by evil model
+ "C-f" #'forward-char
+ "C-b" #'backward-char
+ ;; evil-surround
+ :v  "S"  #'evil-surround-region
+ :o  "s"  #'evil-surround-edit
+ :o  "S"  #'evil-Surround-edit
+ ;; --- Personal vim-esque bindings ------------------
+ :n  "zx" #'doom/kill-this-buffer
+ :m  "gd" #'+jump/definition
+ :m  "gD" #'+jump/references
 )
